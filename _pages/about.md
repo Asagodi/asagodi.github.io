@@ -1,8 +1,8 @@
 ---
 layout: about
-title: PhD student
+title: Ábel Ságodi
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Champalimaud Research
+subtitle: <a href='#'>Champalimaud Research</a>. 
 
 profile:
   align: right
