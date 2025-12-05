@@ -64,8 +64,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-i-gave-a-talk-at-the-bernstein-workshop-on-the-neuron-as-a-controller-of-stochastic-dynamics-in-frankfurt-germany",
-          title: 'I gave a talk at the Bernstein workshop on The neuron as a...',
+            },},{id: "news-on-september-30th-i-will-be-giving-a-talk-at-the-bernstein-conference-workshop-on-the-neuron-as-a-controller-of-stochastic-dynamics-in-frankfurt-germany",
+          title: 'On September 30th, I will be giving a talk at the Bernstein Conference...',
+          description: "",
+          section: "News",},{id: "news-on-october-25-i-will-be-visiting-aneta-koseska-s-lab-in-bonn-at-the-the-max-planck-institute-for-neurobiology-of-behavior-caesar-bonn-germany",
+          title: 'On October 25, I will be visiting Aneta Koseska’s lab in Bonn at...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
