@@ -95,6 +95,20 @@ ninja.data = [{
           window.open("mailto:%61%62%65%6C.%73%61%67%6F%64%69@%72%65%73%65%61%72%63%68.%66%63%68%61%6D%70%61%6C%69%6D%61%75%64.%6F%72%67", "_blank");
         },
       },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/asagodi", "_blank");
+        },
+      },{
+        id: 'social-orcid',
+        title: 'ORCID',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://orcid.org/0000-0002-1414-5062", "_blank");
+        },
+      },{
         id: 'social-rss',
         title: 'RSS Feed',
         section: 'Socials',
