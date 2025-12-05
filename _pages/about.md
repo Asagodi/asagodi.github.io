@@ -7,10 +7,7 @@ subtitle: <a href='#'>Champalimaud Research</a>.
 profile:
   align: right
   image: abel_sagodi.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>Avenida Brasilia</p>
-    <p>Lisbon, Portugal</p>
+  image_circular: true # crops the image to make it circular
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
