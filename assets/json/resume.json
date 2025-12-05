@@ -1,283 +1,83 @@
 {
   "basics": {
     "name": "Ábel Ságodi",
-    "label": "PhD Student in Neuroscience",
+    "label": "PhD student",
     "image": "",
     "email": "abel.sagodi@research.fchampalimaud.org",
-    "phone": "+31 635 607 457",
-    "url": "",
-    "summary": "PhD student at the Champalimaud Centre for the Unknown with a strong background in Mathematics, Physics, and Computational Science.",
+    "phone": "",
+    "url": "https://asagodi.github.io/",
+    "summary": "",
     "location": {
-      "address": "46 Rua do Arco a Alcântara",
-      "postalCode": "1350-021",
+      "address": "Avenida Brasilia",
+      "postalCode": "1400-038",
       "city": "Lisbon",
-      "countryCode": "PT",
-      "region": "Portugal"
+      "countryCode": "Portugal",
+      "region": "Lisbon"
     },
-    "profiles": []
+    "profiles": [
+      {
+        "network": "BlueSky",
+        "username": "neurable",
+        "url": "https://bsky.app/profile/neurabel.bsky.social"
+      }
+    ]
   },
   "work": [
     {
-      "name": "Champalimaud Centre for the Unknown",
-      "position": "PhD Student (INPDP)",
-      "url": "https://fchampalimaud.org",
+      "name": "Champalimaud Research",
+      "position": "PhD Student",
+      "url": "https://research.fchampalimaud.org/",
       "startDate": "2021-09-01",
-      "endDate": "",
-      "summary": "Independent Neuroscience PhD Programme",
-      "highlights": []
-    },
-    {
-      "name": "Vrije Universiteit",
-      "position": "Intern",
-      "startDate": "2021-06-01",
-      "endDate": "2021-08-01",
-      "summary": "Internship under supervision of Léon de Bruin",
-      "highlights": []
-    },
-    {
-      "name": "Kavli Institute for Systems Neuroscience, NTNU",
-      "position": "Researcher",
-      "startDate": "2020-11-01",
-      "endDate": "2021-05-01",
-      "summary": "Roudi group",
-      "highlights": []
-    },
-    {
-      "name": "EPFL, Laboratory for Topology and Neuroscience",
-      "position": "Master Thesis Researcher",
-      "startDate": "2019-09-01",
-      "endDate": "2020-02-01",
-      "summary": "Master Thesis Mathematics. Supervisor: Kathryn Hess",
-      "highlights": []
-    },
-    {
-      "name": "Kavli Institute for Systems Neuroscience, NTNU",
-      "position": "Master Thesis Researcher",
-      "startDate": "2019-02-01",
-      "endDate": "2019-08-01",
-      "summary": "Master Thesis Computational Science. Supervisor: Yasser Roudi",
-      "highlights": []
-    },
-    {
-      "name": "INCDP",
-      "position": "Teaching Assistant",
-      "startDate": "2023-01-18",
-      "endDate": "2023-01-18",
-      "summary": "Course: Time Series Analysis",
-      "highlights": []
-    },
-    {
-      "name": "INCDP",
-      "position": "Teaching Assistant",
-      "startDate": "2022-11-15",
-      "endDate": "2022-11-17",
-      "summary": "Course: Linear Dynamical Systems",
-      "highlights": []
-    },
-    {
-      "name": "Sussex-Champalimaud Meeting",
-      "position": "Teaching Assistant",
-      "startDate": "2022-10-11",
-      "endDate": "2022-10-11",
-      "summary": "Workshop on Latent Dynamics",
-      "highlights": []
-    },
-    {
-      "name": "Champalimaud",
-      "position": "Teaching Assistant",
-      "startDate": "2022-05-23",
-      "endDate": "2022-05-27",
-      "summary": "Course: Extracellular Electrophysiology Acquisition",
-      "highlights": []
-    },
-    {
-      "name": "University of Amsterdam",
-      "position": "Tutor",
-      "startDate": "2017-09-01",
-      "endDate": "2017-12-01",
-      "summary": "Tutor for the course Mathematics for Physicists 2",
-      "highlights": []
-    },
-    {
-      "name": "StudentsPlus",
-      "position": "Tutor",
-      "startDate": "2012-01-01",
-      "endDate": "2015-01-01",
-      "summary": "Tutor for high school students in mathematics, physics, chemistry and biology",
-      "highlights": []
+      "endDate": "Present",
+      "summary": "Park Lab",
+      "highlights": [""]
     }
   ],
   "education": [
     {
       "institution": "University of Amsterdam",
-      "area": "Mathematics (Track Mathematical Physics)",
-      "studyType": "MSc",
-      "startDate": "2017-01-01",
-      "endDate": "2020-01-01",
-      "score": "",
-      "courses": [
-        "Thesis: Conley index theory in neuroscience"
-      ]
-    },
-    {
-      "institution": "University of Amsterdam",
-      "area": "Computational Science",
-      "studyType": "MSc",
-      "startDate": "2017-01-01",
-      "endDate": "2019-01-01",
-      "score": "",
-      "courses": [
-        "Thesis: Categorising attractor dynamics in neural data"
-      ]
-    },
-    {
-      "institution": "University of Amsterdam",
+      "location": "Amsterdam, Netherlands",
+      "url": "https://www.uva.nl/",
       "area": "Mathematics and Physics",
-      "studyType": "Double Bachelor",
-      "startDate": "2014-01-01",
-      "endDate": "2017-01-01",
+      "studyType": "Bsc",
+      "startDate": "2013-09-01",
+      "endDate": "2016-06-30",
       "score": "",
-      "courses": [
-        "Exchange to National University of Singapore (2016)",
-        "Thesis: The qutrit in the Fibonacci anyon model"
-      ]
-    },
-    {
-      "institution": "University of Amsterdam",
-      "area": "Neuroscience (Honours)",
-      "studyType": "Bachelor",
-      "startDate": "2012-01-01",
-      "endDate": "2015-01-01",
-      "score": "",
-      "courses": [
-        "Thesis: Alternative circuits and interleaved learning in the hippocampus"
-      ]
-    }
-  ],
-  "publications": [
-    {
-      "name": "Back to the Continuous Attractor",
-      "publisher": "NeurIPS",
-      "releaseDate": "2024-12-12",
-      "url": "https://openreview.net/forum?id=fvG6ZHrH0B",
-      "summary": "Ságodi, Á., Martin-Sanchez, G., Sokół, P. A., and Park, I. M. (2024). The Thirty-eighth Annual Conference on Neural Information Processing Systems."
-    },
-    {
-      "name": "Persistent learning signals and working memory without continuous attractors",
-      "publisher": "arXiv",
-      "releaseDate": "2023-08-01",
-      "url": "",
-      "summary": "Park, I. M., Ságodi, Á., and Sokół, P. A. (2023). arXiv preprint arXiv:2308.12585."
+      "courses": [""]
     }
   ],
   "awards": [
     {
-      "title": "Cosyne Presenters Travel Grant",
-      "date": "2025-01-01",
-      "awarder": "COSYNE 2025",
-      "summary": "Awarded based on the high reviewer ranking of abstract."
-    },
-    {
-      "title": "Amsterdam University Fund Scholarship",
-      "date": "2019-01-01",
-      "awarder": "University of Amsterdam",
-      "summary": "Awarded for the exchange to EPFL."
-    },
-    {
-      "title": "Amsterdam University Fund Scholarship",
-      "date": "2016-01-01",
-      "awarder": "University of Amsterdam",
-      "summary": "Awarded for the exchange to the National University of Singapore."
-    },
-    {
-      "title": "Finalist Dutch International Astronomy Olympiad",
-      "date": "2012-01-01",
+      "title": "",
+      "date": "",
       "awarder": "",
+      "url": "",
       "summary": ""
-    },
-    {
-      "title": "First Prize Explore the high-energy Universe",
-      "date": "2012-01-01",
-      "awarder": "ESA",
-      "summary": "Observe variable stars with your own telescope."
     }
   ],
-  "volunteer": [
+  "publications": [
     {
-      "organization": "Machine Learning Conferences",
-      "position": "Peer Reviewer",
-      "startDate": "2023-01-01",
-      "endDate": "2025-01-01",
-      "summary": "ICML 2023 (3), ICML 2024 (6), ICML 2025 (5). NeurIPS 2023 (7), NeurIPS 2024 (6 - Top Reviewer). ICLR 2023 (6). AISTATS 2024 (2).",
-      "highlights": []
-    },
-    {
-      "organization": "Stony Brook University (CNU)",
-      "position": "Lecturer",
-      "startDate": "2022-07-13",
-      "endDate": "2022-07-15",
-      "summary": "Lecture series on Conley index theory at the Computational Neuroscience Unit",
-      "highlights": []
+      "name": "",
+      "publisher": "NeurIPS",
+      "releaseDate": "2024-12-01",
+      "url": "",
+      "summary": "."
     }
   ],
-  "projects": [
+  "interests": [
     {
-      "name": "Supervision: Catarina Dias Reis",
-      "startDate": "2024-06-01",
-      "endDate": "2024-08-01",
-      "summary": "Internship supervision",
-      "highlights": []
-    },
-    {
-      "name": "Supervision: Guillermo Martin",
-      "startDate": "2024-04-01",
-      "endDate": "2024-05-01",
-      "summary": "Rotation of PhD student",
-      "highlights": []
-    },
-    {
-      "name": "Supervision: Margarida Santos",
-      "startDate": "2023-06-01",
-      "endDate": "2023-07-01",
-      "summary": "Internship of Bachelor student",
-      "highlights": []
-    }
-  ],
-  "languages": [
-    {
-      "language": "Hungarian",
-      "fluency": "Native"
-    },
-    {
-      "language": "Dutch",
-      "fluency": "Native"
-    },
-    {
-      "language": "English",
-      "fluency": "Fluent (C1)"
-    },
-    {
-      "language": "French",
-      "fluency": "B1"
-    },
-    {
-      "language": "Portuguese",
-      "fluency": "A2"
-    }
-  ],
-  "skills": [
-    {
-      "name": "Programming",
-      "level": "",
-      "icon": "fa-solid fa-code",
+      "name": "",
+      "icon": "",
       "keywords": [
-        "Python",
-        "Matlab",
-        "Mathematica",
-        "R",
-        "C++",
-        "Bonsai"
+        ""
       ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Il Memming Park",
+      "icon": "",
+      "reference": ""
     }
   ]
 }
