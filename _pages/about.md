@@ -23,4 +23,4 @@ announcements:
 
 I am a PhD student in Memming Park's lab developing an interpretable language for robust neural computation.
 
-Social media connections: https://bsky.app/profile/neurabel.bsky.social
+Social media connections: [https://bsky.app/profile/neurabel.bsky.social](https://bsky.app/profile/neurabel.bsky.social)
