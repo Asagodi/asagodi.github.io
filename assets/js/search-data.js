@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "cv",
-          description: "",
+          description: "CV",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
@@ -64,8 +64,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-i-gave-a-talk-at-the-bernstein-workshop-in-frankfurt-germany",
-          title: 'I gave a talk at the Bernstein workshop in Frankfurt, Germany.',
+            },},{id: "news-i-gave-a-talk-at-the-bernstein-workshop-on-the-neuron-as-a-controller-of-stochastic-dynamics-in-frankfurt-germany",
+          title: 'I gave a talk at the Bernstein workshop on The neuron as a...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
