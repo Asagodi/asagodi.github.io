@@ -29,8 +29,7 @@
       "url": "https://research.fchampalimaud.org/",
       "startDate": "2021-09-01",
       "endDate": "Present",
-      "summary": "Park Lab",
-      "highlights": [""]
+      "summary": "Park Lab"
     }
   ],
   "education": [
@@ -60,22 +59,7 @@
       "name": "",
       "publisher": "NeurIPS",
       "releaseDate": "2024-12-01",
-      "url": "",
-      "summary": "."
-    }
-  ],
-  "interests": [
-    {
-      "name": "",
-      "icon": "",
-      "keywords": [""]
-    }
-  ],
-  "references": [
-    {
-      "name": "Il Memming Park",
-      "icon": "",
-      "reference": ""
+      "url": ""
     }
   ]
 }
