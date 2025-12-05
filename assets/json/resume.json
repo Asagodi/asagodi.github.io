@@ -115,7 +115,9 @@
       "startDate": "2017-01-01",
       "endDate": "2020-01-01",
       "score": "",
-      "courses": ["Thesis: Conley index theory in neuroscience"]
+      "courses": [
+        "Thesis: Conley index theory in neuroscience"
+      ]
     },
     {
       "institution": "University of Amsterdam",
@@ -124,7 +126,9 @@
       "startDate": "2017-01-01",
       "endDate": "2019-01-01",
       "score": "",
-      "courses": ["Thesis: Categorising attractor dynamics in neural data"]
+      "courses": [
+        "Thesis: Categorising attractor dynamics in neural data"
+      ]
     },
     {
       "institution": "University of Amsterdam",
@@ -266,7 +270,14 @@
       "name": "Programming",
       "level": "",
       "icon": "fa-solid fa-code",
-      "keywords": ["Python", "Matlab", "Mathematica", "R", "C++", "Bonsai"]
+      "keywords": [
+        "Python",
+        "Matlab",
+        "Mathematica",
+        "R",
+        "C++",
+        "Bonsai"
+      ]
     }
   ]
 }
