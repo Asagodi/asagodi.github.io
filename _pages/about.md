@@ -2,7 +2,7 @@
 layout: about
 title: Ábel Ságodi
 permalink: /
-subtitle: <a href='#'>Champalimaud Research</a>.
+subtitle: PhD Student in [CATNIPLAB](https://catniplab.github.io/) at <a href='https://fchampalimaud.org'>Champalimaud Research</a>.
 
 profile:
   align: right
