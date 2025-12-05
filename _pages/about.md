@@ -2,7 +2,7 @@
 layout: about
 title: Ábel Ságodi
 permalink: /
-subtitle: <a href='#'>Champalimaud Research</a>. 
+subtitle: <a href='#'>Champalimaud Research</a>.
 
 profile:
   align: right
@@ -20,5 +20,7 @@ announcements:
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 ---
+
+I am a PhD student in Memming Park's lab on developing an interpretable language for robust neural computation.
 
 Social media connections: https://bsky.app/profile/neurabel.bsky.social
