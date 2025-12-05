@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-I gave a talk at the Bernstein workshop on *The neuron as a controller of stochastic dynamics* in Frankfurt, Germany.
+I gave a talk at the Bernstein workshop on _The neuron as a controller of stochastic dynamics_ in Frankfurt, Germany.
