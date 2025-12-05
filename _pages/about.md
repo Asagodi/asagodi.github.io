@@ -6,7 +6,7 @@ subtitle: <a href='#'>Affiliations</a>. Champalimaud Research
 
 profile:
   align: right
-  image: Abel Sagodi.jpg
+  image: abel_sagodi.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>123 Avenida Brasilia</p>
