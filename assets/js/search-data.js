@@ -64,16 +64,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
-          description: "",
-          section: "News",},{id: "news-this-is-the-text-that-will-appear-in-your-news-section",
-          title: 'This is the text that will appear in your news section.',
+            },},{id: "news-i-gave-a-talk-at-the-bernstein-workshop-in-frankfurt-germany",
+          title: 'I gave a talk at the Bernstein workshop in Frankfurt, Germany.',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
