@@ -1,8 +1,8 @@
 ---
 layout: post
-title: a post 
+title: a post
 date: 2020-09-28 11:12:00-0400
-description: an example of a blog post 
+description: an example of a blog post
 tags: formatting
 categories: sample-posts
 ---
