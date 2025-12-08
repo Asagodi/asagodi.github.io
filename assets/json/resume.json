@@ -38,28 +38,18 @@
       "location": "Amsterdam, Netherlands",
       "url": "https://www.uva.nl/",
       "area": "Mathematics and Physics",
-      "studyType": "Bsc",
-      "startDate": "2013-09-01",
-      "endDate": "2016-06-30",
-      "score": "",
-      "courses": [""]
-    }
-  ],
-  "awards": [
+      "studyType": "BSc",
+      "startDate": "2014-09-01",
+      "endDate": "2017-06-30"
+    },
     {
-      "title": "",
-      "date": "",
-      "awarder": "",
-      "url": "",
-      "summary": ""
-    }
-  ],
-  "publications": [
-    {
-      "name": "",
-      "publisher": "NeurIPS",
-      "releaseDate": "2024-12-01",
-      "url": ""
+      "institution": "University of Amsterdam",
+      "location": "Amsterdam, Netherlands",
+      "url": "https://www.uva.nl/",
+      "area": "Mathematics",
+      "studyType": "MSc",
+      "startDate": "2017-09-01",
+      "endDate": "2019-06-30"
     }
   ]
 }
