@@ -15,9 +15,7 @@ social: true # includes social icons at the bottom of the page
 announcements:
   enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  limit: 3 # leave blank to include all the news in the `_news` folder
 ---
 
-I am a PhD student in Memming Park's lab developing an interpretable language for robust neural computation.
-
-Social media connections: [https://bsky.app/profile/neurabel.bsky.social](https://bsky.app/profile/neurabel.bsky.social)
+Hi, I’m Ábel Ságodi. I am a PhD student at the Champalimaud Centre for the Unknown in Lisbon, working at the intersection of theoretical neuroscience, machine learning, and control theory. With a background in Mathematics, Physics, and Computational Science (MSc & BSc from the University of Amsterdam), I approach the brain as a complex dynamical system. I am fascinated by how biological circuits, despite being noisy and biological, can perform robust computation. I draw inspiration from the philosophy of science to develop an interpretable language for this computation, finding the right mathematical abstractions to understand how the brain actually works.
