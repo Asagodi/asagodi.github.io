@@ -1,19 +1,19 @@
 {% for publication in site.data.publications %}
-  <div class="publication-card">
-    {% if publication.image %}
-      <div class="publication-image">
-        <img
-          src="{{ site.baseurl }}{{ publication.image }}"
-          alt="{{ publication.title }}"
-        />
-      </div>
-    {% endif %}
-    <div class="publication-info">
-      <h3>{{ publication.title }}</h3>
-      <p>{{ publication.author | join: ", " }}</p>
-      {% if publication.html %}
-        <a href="{{ publication.html }}">View Details</a>
-      {% endif %}
-    </div>
+<div class="publication-card">
+  {% if publication.image %}
+  <div class="publication-image">
+    <img
+      src="{{ site.baseurl }}{{ publication.image }}"
+      alt="{{ publication.title }}"
+    />
   </div>
+  {% endif %}
+  <div class="publication-info">
+    <h3>{{ publication.title }}</h3>
+    <p>{{ publication.author | join: ", " }}</p>
+    {% if publication.html %}
+    <a href="{{ publication.html }}">View Details</a>
+    {% endif %}
+  </div>
+</div>
 {% endfor %}
