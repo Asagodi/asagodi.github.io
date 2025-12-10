@@ -1,41 +1,14 @@
 {% for publication in site.data.publications %}
-<div
-  class="publication-card"
-  style="
-    display: flex;
-    align-items: flex-start;
-    margin-bottom: 2rem;
-    gap: 1rem;
-    border: 1px solid #eee;
-    padding: 1rem;
-    border-radius: 0.5rem;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-  "
->
-  {% if publication.image %}
-  <div class="publication-image" style="flex: 0 0 150px">
-    <img
-      src="{{ site.baseurl }}{{ publication.image }}"
-      alt="{{ publication.title }}"
-      style="width: 100%; height: auto; border-radius: 0.25rem"
-    />
-  </div>
-  {% endif %}
+  <div class="publication">
+    <h3>{{ publication.title }}</h3>
+    <p>{{ publication.author | join: ", " }}</p>
+    <a href="{{ publication.html }}">Details</a>
 
-  <div class="publication-info" style="flex: 1">
-    <h3 style="margin-top: 0; margin-bottom: 0.25rem">
-      {{ publication.title }}
-    </h3>
-    <p style="margin: 0 0 0.5rem 0; font-style: italic; color: #555">
-      {{ publication.author | join: ", " }}
-    </p>
-    {% if publication.html %}
-    <a
-      href="{{ publication.html }}"
-      style="text-decoration: none; color: #1a73e8; font-weight: 500"
-      >View Details</a
-    >
+    {% if publication.image %}
+      <img
+        src="{{ site.baseurl }}{{ publication.image }}"
+        alt="{{ publication.title }}"
+      />
     {% endif %}
   </div>
-</div>
 {% endfor %}
