@@ -1,12 +1,16 @@
 metadata:
-  last_updated: '2025-12-24'
+  last_updated: '2026-01-28'
 papers:
   -nSEXC0AAAAJ:IjCSPb-OGe4C:
-    citations: 13
+    citations: 14
     title: Back to the continuous attractor
     year: '2024'
+  -nSEXC0AAAAJ:WF5omc3nYNoC:
+    citations: 0
+    title: Aligning computational models of temporal phenomena with data through category theory
+    year: Unknown Year
   -nSEXC0AAAAJ:Y0pCki6q_DkC:
-    citations: 1
+    citations: 2
     title: 'Dynamical archetype analysis: Autonomous computation'
     year: '2025'
   -nSEXC0AAAAJ:d1gkVwhDpl0C:
@@ -18,6 +22,6 @@ papers:
     title: Symmetry-Regularized Learning of Continuous Attractor Dynamics
     year: '2025'
   -nSEXC0AAAAJ:qjMakFHDy7sC:
-    citations: 14
+    citations: 16
     title: Persistent learning signals and working memory without continuous attractors
     year: '2023'
