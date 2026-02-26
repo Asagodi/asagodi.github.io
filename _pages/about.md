@@ -2,8 +2,7 @@
 layout: about
 title: Ábel Ságodi
 permalink: /
-PhD Student in <a href='https://catniplab.github.io/'>CATNIPLAB</a> at <a href='https://fchampalimaud.org'>Champalimaud Research</a>. <br />
-  Supervised by <a href='https://fchampalimaud.org/research/groups/memming-park'>Memming Park</a>.
+subtitle: PhD Student in <a href='https://catniplab.github.io/'>CATNIPLAB</a> at <a href='https://fchampalimaud.org'>Champalimaud Research</a>, supervised by <a href='https://fchampalimaud.org/research/groups/memming-park'>Memming Park</a>.
 
 profile:
   align: right
