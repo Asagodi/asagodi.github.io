@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-New preprint out on [**Universal Approximation Theorems for Dynamical Systems**](https://arxiv.org/abs/2602.08640)!
+New preprint out on [Universal Approximation Theorems for Dynamical Systems](https://arxiv.org/abs/2602.08640)!
