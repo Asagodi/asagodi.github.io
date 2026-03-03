@@ -1,6 +1,6 @@
 ---
 layout: post
-title: New Prerint
+title: New Preprint
 date: 2026-02-11 09:00:00-0000
 inline: true
 related_posts: false
