@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-04-13'
+  last_updated: '2026-05-08'
 papers:
   -nSEXC0AAAAJ:IjCSPb-OGe4C:
     citations: 18
@@ -28,4 +28,8 @@ papers:
   -nSEXC0AAAAJ:qjMakFHDy7sC:
     citations: 17
     title: Persistent learning signals and working memory without continuous attractors
+    year: '2023'
+  -nSEXC0AAAAJ:roLk4NBRz8UC:
+    citations: 1
+    title: RNNs with gracefully degrading continuous attractors
     year: '2023'
