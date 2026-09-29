@@ -73,6 +73,9 @@ ninja.data = [{
           section: "News",},{id: "news-our-paper-data-enabled-local-reach-avoid-control-near-saddle-equilibria-with-a-neuronal-interpretation-got-accepted-for-the-65th-ieee-conference-on-decision-and-control-cdc-this-is-joint-work-with-joshua-l-pughe-sanford-xuehao-ding-and-dmitri-b-chklovskii",
           title: 'Our paper Data-Enabled Local Reach-Avoid Control Near Saddle Equilibria with a Neuronal Interpretation...',
           description: "",
+          section: "News",},{id: "news-our-paper-universal-approximation-theorems-for-dynamical-systems-with-infinite-time-horizon-guarantees-got-accepted-at-neurips-2026-this-is-joint-work-with-memming-park",
+          title: 'Our paper Universal Approximation Theorems for Dynamical Systems with Infinite-Time Horizon Guarantees got...',
+          description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
@@ -118,7 +121,7 @@ ninja.data = [{
         title: 'CV',
         section: 'Socials',
         handler: () => {
-          window.open("/assets/pdf/20260713CV.pdf", "_blank");
+          window.open("/assets/pdf/20260929CV.pdf", "_blank");
         },
       },{
         id: 'social-email',
