@@ -3,22 +3,18 @@
 
 @string{aps = {American Physical Society,}}
 
-@article{chitic2026attractor,
-  abbr={Biol. Cybern.},
-  title={Attractor working memory as a potential basis for insect path integration},
-  author={Chitic, R. and Gkanias, E. and S\'{a}godi, \'{A}bel and Chicca, E. and Webb, B.},
-  journal={Under review at Biological Cybernetics},
-  year={2026}
-}
-
 @inproceedings{sagodi2026universal,
   abbr={NeurIPS},
   title={Universal Approximation Theorems for Dynamical Systems with Infinite-Time Horizon Guarantees},
-  author={S\'{a}godi, \'{A}bel and Park, I. M.},
-  booktitle={Fortieth Annual Conference on Neural Information Processing Systems (to appear)},
+  author={S\'{a}godi, \'{A}bel and Park, Il Memming},
+  booktitle={Advances in Neural Information Processing Systems (NeurIPS), to appear},
   year={2026},
+  month={dec},
   arxiv={2602.08640},
-  html={https://arxiv.org/abs/2602.08640},
+  html={https://openreview.net/forum?id=JFUIDA4w6C},
+  code={https://github.com/Asagodi/uap-infinite-time-code},
+  abstract={Universal approximation theorems establish the expressive capacity of neural network architectures. For dynamical systems, existing results are limited to finite time horizons or systems with a globally stable equilibrium, leaving multistability and limit cycles unaddressed. We prove that Neural ODEs achieve ε-δ closeness (trajectories within error ε except for initial conditions of measure < δ) over the infinite time horizon [0,∞) for three target classes: (1) Morse-Smale systems (a structurally stable class) with hyperbolic fixed points, (2) Morse-Smale systems with hyperbolic limit cycles via exact period matching, and (3) systems with normally hyperbolic continuous attractors via discretization. We further establish a temporal generalization bound: ε-δ closeness implies Lᵖ error ≤ εᵖ + δ·Dᵖ for all t ≥ 0, bridging topological guarantees to training metrics. These results provide the first universal approximation framework for multistable infinite-horizon dynamics.},
+  bibtex_show={true},
   preview={uap_landscape.png},
   selected={true}
 }
@@ -26,28 +22,35 @@
 @inproceedings{sagodi2026reachavoid,
   abbr={CDC},
   title={Data-Enabled Local Reach-Avoid Control Near Saddle Equilibria with a Neuronal Interpretation},
-  author={S\'{a}godi, \'{A}bel and Pughe-Sanford, J. L. and Ding, X. and Chklovskii, D. B.},
-  booktitle={65th IEEE Conference on Decision and Control (to appear)},
-  year={2026}
+  author={S\'{a}godi, \'{A}bel and Pughe-Sanford, Joshua L. and Ding, Xuehao and Chklovskii, Dmitri B.},
+  booktitle={65th IEEE Conference on Decision and Control (CDC), to appear},
+  year={2026},
+  month={dec},
+  abstract={Control is often most valuable precisely where autonomous dynamics are most fragile, and neighborhoods of saddle equilibria provide a canonical local setting in which small perturbations can redirect trajectories toward qualitatively different futures. We study a local stochastic reach-avoid control problem near a saddle equilibrium with a single unstable mode. The objective is to steer trajectories toward a desired region along the unstable coordinate while avoiding escape to the opposite side of the saddle, under a quadratic control cost. For dynamics linearized about the saddle, the optimal feedback law admits an explicit scalar form. In the small-noise limit, this controller reduces to a one-sided linear law. We further show that the quantities required by this law can be estimated from passive trajectories, formulating a data-enabled local synthesis procedure. Numerical experiments on a linear saddle, a double-well system and a stochastic pendulum show that the resulting controller approaches the performance of the oracle controller and successfully steers trajectories in noisy reach-avoid tasks, including random linear saddles in up to ten dimensions. In light of the recent proposal interpreting neurons as feedback controllers of their environment, this one-sided deterministic limit suggests a control-theoretic interpretation of rectified responses in natural and artificial neural units.},
+  bibtex_show={true}
 }
 
 @inproceedings{liang2025symmetry,
   abbr={NeurIPS W},
   title={Symmetry-Regularized Learning of Continuous Attractor Dynamics},
-  author={Liang, A. and S\'{a}godi, \'{A}bel and Sok\'{o}l, P. A. and Park, I. M.},
-  booktitle={NeurIPS 2025 Workshop on Symmetry and Geometry in Neural Representations},
+  author={Liang, Arthur and S\'{a}godi, \'{A}bel and Sok\'{o}\l{}, Piotr and Park, Il Memming},
+  booktitle={NeurIPS 2025 Workshop on Symmetry and Geometry in Neural Representations (NeurReps 2025)},
   year={2025},
-  html={https://openreview.net/forum?id=W8Gf7CYCo8}
+  html={https://openreview.net/forum?id=W8Gf7CYCo8},
+  abstract={Neural population dynamics exhibit rich geometric structure, yet prevailing computational models often overlook this by primarily accounting for variability in the data. We show that incorporating prior knowledge about dynamical symmetries yields efficient and interpretable models. Focusing on ring attractor dynamics (canonical circuits that are approximately equivariant under planar rotations), we introduce a symmetry-regularized variational state space model. Our method augments the standard variational objective with a symmetry penalty, encouraging the learned dynamical system to respect rotational invariance. We demonstrate that this regularization preserves predictive performance while yielding parsimonious models with interpretable latent dynamics. This framework establishes a principled approach for embedding symmetry priors into neural dynamical system learning, highlighting how exploiting geometric structure can improve both scientific insight and model generalization.},
+  bibtex_show={true}
 }
 
 @article{sagodi2025dynamical,
   abbr={arXiv},
   title={Dynamical Archetype Analysis: Autonomous Computation},
-  author={S\'{a}godi, \'{A}bel and Park, I. M.},
+  author={S\'{a}godi, \'{A}bel and Park, Il Memming},
   journal={arXiv preprint arXiv:2507.05505},
   year={2025},
+  month={jul},
   arxiv={2507.05505},
-  html={https://doi.org/10.48550/arXiv.2507.05505},
+  abstract={The study of neural computation aims to understand the function of a neural system as an information processing machine. Neural systems are undoubtedly complex, necessitating principled and automated tools to abstract away details to organize and incrementally build intuition. We argue that systems with the same effective behavior should be abstracted by their ideal representative, i.e., archetype, defined by its asymptotic dynamical structure. We propose a library of archetypical computations and a new measure of dissimilarity that allows us to group systems based on their effective behavior by explicitly considering both deformations that break topological conjugacy as well as diffeomorphisms that preserve it. The proposed dissimilarity can be estimated from observed trajectories. Numerical experiments demonstrate our method's ability to overcome previously reported fragility of existing (dis)similarity measures for approximate continuous attractors and high-dimensional recurrent neural networks. Although our experiments focus on working memory systems, our theoretical approach naturally extends to general mechanistic interpretation of recurrent dynamics in both biological and artificial neural systems. We argue that abstract dynamical archetypes, rather than detailed dynamical systems, offer a more useful vocabulary for describing neural computation.},
+  bibtex_show={true},
   preview={topological_conjugacy_pareto.png},
   selected={true}
 }
@@ -55,10 +58,16 @@
 @inproceedings{sagodi2024back,
   abbr={NeurIPS},
   title={Back to the Continuous Attractor},
-  author={S\'{a}godi, \'{A}bel and Martin-Sanchez, G. and Sok\'{o}l, P. A. and Park, I. M.},
-  booktitle={Thirty-eighth Annual Conference on Neural Information Processing Systems},
+  author={S\'{a}godi, \'{A}bel and Mart\'{i}n-S\'{a}nchez, Guillermo and Sok\'{o}\l{}, Piotr and Park, Il Memming},
+  booktitle={Advances in Neural Information Processing Systems (NeurIPS)},
   year={2024},
-  html={https://openreview.net/forum?id=fvG6ZHrH0B},
+  month={dec},
+  doi={10.52202/079017-2136},
+  arxiv={2408.00109},
+  html={https://papers.neurips.cc/paper_files/paper/2024/hash/7b78a2a7360d5a9ad750834dc5a33bfb-Abstract-Conference.html},
+  code={https://github.com/catniplab/back_to_the_continuous_attractor},
+  abstract={Continuous attractors offer a unique class of solutions for storing continuous-valued variables in recurrent system states for indefinitely long time intervals. Unfortunately, continuous attractors suffer from severe structural instability in general: they are destroyed by most infinitesimal changes of the dynamical law that defines them. This fragility limits their utility especially in biological systems as their recurrent dynamics are subject to constant perturbations. We observe that the bifurcations from continuous attractors in theoretical neuroscience models display various structurally stable forms. Although their asymptotic behaviors to maintain memory are categorically distinct, their finite-time behaviors are similar. We build on the persistent manifold theory to explain the commonalities between bifurcations from and approximations of continuous attractors. Fast-slow decomposition analysis uncovers the persistent manifold that survives the seemingly destructive bifurcation. Moreover, recurrent neural networks trained on analog memory tasks display approximate continuous attractors with predicted slow manifold structures. Therefore, continuous attractors are functionally robust and remain useful as a universal analogy for understanding analog memory.},
+  bibtex_show={true},
   preview={FenichelThm.png},
   selected={true}
 }
@@ -66,8 +75,11 @@
 @article{park2023persistent,
   abbr={arXiv},
   title={Persistent Learning Signals and Working Memory without Continuous Attractors},
-  author={Park, I. M. and S\'{a}godi, \'{A}bel and Sok\'{o}l, P. A.},
+  author={Park, Il Memming and S\'{a}godi, \'{A}bel and Sok\'{o}\l{}, Piotr Aleksander},
   journal={arXiv preprint arXiv:2308.12585},
   year={2023},
-  arxiv={2308.12585}
+  month={aug},
+  arxiv={2308.12585},
+  abstract={Neural dynamical systems with stable attractor structures, such as point attractors and continuous attractors, are hypothesized to underlie meaningful temporal behavior that requires working memory. However, working memory may not support useful learning signals necessary to adapt to changes in the temporal structure of the environment. We show that in addition to the continuous attractors that are widely implicated, periodic and quasi-periodic attractors can also support learning arbitrarily long temporal relationships. Unlike the continuous attractors that suffer from the fine-tuning problem, the less explored quasi-periodic attractors are uniquely qualified for learning to produce temporally structured behavior. Our theory has broad implications for the design of artificial learning systems and makes predictions about observable signatures of biological neural dynamics that can support temporal dependence learning and working memory. Based on our theory, we developed a new initialization scheme for artificial recurrent neural networks that outperforms standard methods for tasks that require learning temporal dynamics. Moreover, we propose a robust recurrent memory mechanism for integrating and maintaining head direction without a ring attractor.},
+  bibtex_show={true}
 }
