@@ -7,3 +7,15 @@
 
 "Vision":
   color: "#009f36"
+
+"NeurIPS":
+  color: "#68448B"
+
+"NeurIPS W":
+  color: "#916BA4"
+
+"arXiv":
+  color: "#B31B1B"
+
+"CDC":
+  color: "#00629B"
