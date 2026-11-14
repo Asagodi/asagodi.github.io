@@ -1,9 +1,12 @@
 # Recorded talks for the videos page, newest first.
 # slideslive: the presentation id from https://slideslive.com/<id>/...
-# youtube: the video id from https://www.youtube.com/watch?v=<id>
+#   NeurIPS talks cannot be embedded on other sites, so they show
+#   `thumbnail` (an image path) as a link that opens SlidesLive.
+# youtube: the video id from https://www.youtube.com/watch?v=<id> (embedded)
 
 - title: Back to the Continuous Attractor
   event: NeurIPS 2024
   date: 2024-12
   paper: https://papers.neurips.cc/paper_files/paper/2024/hash/7b78a2a7360d5a9ad750834dc5a33bfb-Abstract-Conference.html
   slideslive: "39026337"
+  thumbnail: /assets/img/publication_preview/FenichelThm.png
